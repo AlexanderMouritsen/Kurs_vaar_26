@@ -1,5 +1,6 @@
 async function henteBrukere() {
-    const res = await fetch('/allGames');
+    const tabellBody = document.querySelector('#gameTable')
+    const res = await fetch('/allUsersGames');
     const games = await res.json();
 
     games.forEach(game => {
