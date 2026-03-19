@@ -1,0 +1,24 @@
+{
+  "name": "kurs_vaar_26",
+  "version": "1.0.0",
+  "description": "Før du starter kurset **MÅ** du ha følgende installert på maskinen din.\r Hvis du ikke allerede har lastet ned disse, finner du lenkene nedenfor:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderMouritsen/Kurs_vaar_26.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderMouritsen/Kurs_vaar_26/issues"
+  },
+  "homepage": "https://github.com/AlexanderMouritsen/Kurs_vaar_26#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.8.0",
+    "express": "^5.2.1"
+  }
+}
