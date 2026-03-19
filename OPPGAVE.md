@@ -6,4 +6,4 @@ Spillselskapet **RALF** jobber med en ny digital spillplattform og trenger en da
 
 RALF ønsker å kunne lagre **navn på brukere**, informasjon om **spill** som **navn, tittel, beskrivelse og utvikler**, samt ulike **sjangre** spillene kan høre til.
 
-Lag løsningen i **draw.io** av en datamodell med riktige **attributter, primærnøkler** og en struktur som passer til oppgaven.
+Lag løsningen i **penn og papir** av en datamodell med riktige **attributter, primærnøkler** og en struktur som passer til oppgaven.
