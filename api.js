@@ -26,6 +26,16 @@ function registerApi(app, database) {
 		const rows = database.prepare("SELECT * FROM Genre").all();
 		res.json(rows);
 	});
+
+	app.get("/allUsersGames", (req, res) => {
+		const rows = database.prepare(`
+			SELECT users.username, game.title, game.description
+			FROM users
+			INNER JOIN user_game ON users.user_id = user_game.user_id
+			INNER JOIN game ON user_game.game_id = game.game_id
+		`).all();
+		res.json(rows);
+	});
 }
 
 // Gjør funksjonen tilgjengelig for andre filer (brukes i app.js via require)
