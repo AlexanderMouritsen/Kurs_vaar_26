@@ -10,3 +10,19 @@ Hvis du ikke allerede har lastet ned disse, finner du lenkene nedenfor:
 
 - **SQLiteStudio**
   👉 Last ned her: [https://sqlitestudio.pl/](https://sqlitestudio.pl/)
+
+## NPM-pakker
+
+Når du har klonet prosjektet, kjør dette i prosjektmappen i denne rekkefolgen:
+
+1. Initialiser npm-prosjektet:
+
+```bash
+npm init -y
+```
+
+2. Installer nødvendige pakker:
+
+```bash
+npm install better-sqlite3 express
+```
