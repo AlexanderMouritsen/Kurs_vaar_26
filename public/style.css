@@ -1,0 +1,50 @@
+:root {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 24px;
+	background: #f5f5f5;
+	color: #222;
+}
+
+main {
+	max-width: 760px;
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 16px;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 1.2rem;
+}
+
+.row {
+	display: flex;
+	gap: 8px;
+	margin-bottom: 10px;
+	flex-wrap: wrap;
+}
+
+button,
+input {
+	padding: 8px;
+	font: inherit;
+}
+
+#status {
+	margin: 8px 0;
+	color: #444;
+}
+
+#output {
+	margin: 0;
+	padding: 12px;
+	border: 1px solid #ddd;
+	background: #fafafa;
+	overflow: auto;
+	min-height: 200px;
+}

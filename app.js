@@ -5,6 +5,9 @@ const registerApi = require("./api");
 const app = express();
 const PORT = 3000;
 
+// Gjør filer i public tilgjengelige
+app.use(express.static("public"));
+
 const database = new Database("./SpillKurs.db");
 registerApi(app, database);
 
