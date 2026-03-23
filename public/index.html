@@ -1,15 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Minimal API UI</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <main id="gameTable">
+    <main>
+        <h1>Minimal API UI</h1>
 
+        <div class="row">
+            <button id="btnGames">Hent alle spill</button>
+            <button id="btnUsers">Hent alle brukere</button>
+            <button id="btnGenres">Hent alle sjangre</button>
+        </div>
+
+        <div class="row">
+            <input id="gameId" type="number" min="1" placeholder="Spill-ID">
+            <button id="btnGameById">Hent spill på ID</button>
+        </div>
+
+        <p id="status"></p>
+        <pre id="output">Trykk en knapp for å hente data...</pre>
     </main>
 </body>
 </html>
