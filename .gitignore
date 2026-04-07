@@ -1,6 +1,6 @@
 node_modules/
 
 # Vil bli fjernet underveis i kurset
-api.js
-app.js
-script.js
+/api.js
+/app.js
+/public/script.js
